@@ -1,0 +1,45 @@
+﻿Ôû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+
+node.exe : ÔÜá The "middlew
+are" file convention is dep
+recated. Please use "proxy"
+ instead. Learn more: https
+://nextjs.org/docs/messages
+/middleware-to-proxy
+At C:\nvm4w\nodejs\npx.ps1:
+29 char:3
++   & $NODE_EXE $NPX_CLI_JS
+ $args
++   ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (ÔÜá  
+   The "middle...leware-   
+ to-proxy:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build fail
+ed with 1 errors:
+./
+App Router and Pages Router
+ both match path: /api/auth
+/[...nextauth]
+Next.js does not support ha
+ving both App Router and Pa
+ges Router routes matching 
+the same path. Please remov
+e one of the conflicting ro
+utes.
+
+
+    at ignore-listed frames
+Assertion failed: !(handle-
+>flags & UV_HANDLE_CLOSING)
+, file c:\ws\deps\uv\src\wi
+n\async.c, line 76
